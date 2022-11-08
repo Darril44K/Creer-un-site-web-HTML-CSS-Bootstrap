@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: gray;
+}
+
+
+
+.nav-link{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-burger{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .nav-burger{
+        display: block;
+    }
+    .nav-link{
+        display: none;
+    }
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
