@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: gray;
+    background-image: url('/imgs/background_traveling.jpeg');
 }
 
 
@@ -33,16 +33,33 @@ body{
 
 
 @media screen and (max-width: 650px) {
+    body{
+        background-image: url('/imgs/background_traveling.jpeg');
+        width: 650px;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+    #logo{
+       position: absolute;
+       left: 180px;
+       top: 20px;
+       align-items: center;
+    }
     .nav-burger{
         display: block;
     }
     .nav-link{
         display: none;
     }
-}
-
-.logo{
-    width: 200px;
-    height: 100px;
-    background-color: aqua;
+    .video{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .presentation{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 250px;
+    }
+    
 }
