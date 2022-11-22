@@ -41,8 +41,8 @@ body{
     }
     #logo{
        position: absolute;
-       left: 180px;
-       top: 20px;
+       left: 35%;
+       top: 3%;
        align-items: center;
     }
     .nav-burger{
@@ -53,13 +53,49 @@ body{
     }
     .video{
         position: absolute;
-        margin-left: 80px;
-        margin-top: 50px;
+        margin-left: 20%;
+        margin-top: 5%;
     }
     .presentation{
         position: absolute;
-        margin-left: 80px;
-        margin-top: 250px;
+        margin-left: 20%;
+        margin-top: 35%;
     }
-    
+    .container_travel{
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 50%;
+    }
+    .plane{
+        width: 80%;
+        height: 50%;
+    }
+    .container_travel_1{
+        color: rgb(0, 0, 0);
+    }
+
+    .container_travel_bus{
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 90%;
+    }
+    .bus{
+        width: 80%;
+        height: 50%;
+    }
+    .container_travel_2{
+        color: rgb(0, 0, 0);
+    }
+    .container_travel_pierre_vacance{
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 130%;
+    }
+    .pierre_vacance{
+        width: 80%;
+        height: 50%;
+    }
+    .container_travel_3{
+        color: rgb(0, 0, 0);
+    }
 }
